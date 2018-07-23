@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="ttl">Title</string>
+    <string name="desc">Description</string>
+    <string name="sys">Movie Synopsis</string>
+    <string name="dt">Watch Date</string>
+    <string name="ven">Venue</string>
+
+</resources>

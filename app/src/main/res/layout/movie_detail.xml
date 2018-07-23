@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageViewRatingD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rating_g" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitleD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ttl"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/textViewDescD"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="@string/desc" />
+
+        <TextView
+            android:id="@+id/textViewSynopsis"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:text="@string/sys" />
+
+        <TextView
+            android:id="@+id/textViewWatchOn"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="@string/dt" />
+        <TextView
+            android:id="@+id/textViewVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ven" />
+
+        <RatingBar
+            android:id="@+id/ratingBarMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
